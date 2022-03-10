@@ -1,0 +1,20 @@
+{
+  "name": "movies-api",
+  "version": "1.0.0",
+  "description": "movies app for LBG ME cohort 3",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.generalassemb.ly:tristanhall/lbg-me-movies-api.git"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
