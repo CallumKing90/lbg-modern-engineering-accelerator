@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StarWars display film information returned from API call: StarWars 1`] = `
+<body>
+  <div>
+    <main>
+      <ul />
+    </main>
+  </div>
+</body>
+`;
+
+exports[`StarWars display film information returned from API call: StarWars After Load 1`] = `
+<body>
+  <div>
+    <main>
+      <ul>
+        <li>
+          <h2>
+            Star Wars and the Half-Blood Ewok
+          </h2>
+          <p>
+            This Ewok's looking a bit peaky. Tensions are in unrest across the stars and also the wars…
+          </p>
+        </li>
+      </ul>
+    </main>
+  </div>
+</body>
+`;

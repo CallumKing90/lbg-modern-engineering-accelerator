@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> matches snaphot on initial render 1`] = `
+<body>
+  <div>
+    <h1>
+      Learn React Testing
+    </h1>
+    <nav>
+      <ul>
+        <li>
+          <button>
+            Home
+          </button>
+        </li>
+        <li>
+          <button>
+            About
+          </button>
+        </li>
+        <li>
+          <button>
+            Contact
+          </button>
+        </li>
+        <li>
+          <button>
+            Star Wars
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <p
+        class="large"
+      >
+        Click a button!
+      </p>
+    </main>
+  </div>
+</body>
+`;
+
+exports[`<App /> matches snapshot after clicking About 1`] = `
+<body>
+  <div>
+    <h1>
+      Learn React Testing
+    </h1>
+    <nav>
+      <ul>
+        <li>
+          <button>
+            Home
+          </button>
+        </li>
+        <li>
+          <button>
+            About
+          </button>
+        </li>
+        <li>
+          <button>
+            Contact
+          </button>
+        </li>
+        <li>
+          <button>
+            Star Wars
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <p
+        class="large"
+      >
+        About
+      </p>
+    </main>
+  </div>
+</body>
+`;
